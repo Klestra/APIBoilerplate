@@ -1,3 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .hidden {
     display: none!important;
+}
+
+.full-window-height {
+    height: 100vh;
+}
+
+.base-section {
+    width : 70vw;
+    height: 80vh;
+    background-color: #10578c;
+}
+
+@media screen and (max-width: 410px) {
+    .base-section {
+        width: 100vw;
+        height: 100vh;
+    }
 }

@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>APIBoilerplate</title>
-    <link rel="stylesheet" href="./style/style.css"
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
-<body>
-    <main>
-        <section class="hidden" data-page="home">
-
+<body class="full-window-height">
+    <main class="full-window-height">
+        <section class="base-section hidden" data-page="home">
+           <input type="button" value="contact" data-target="contact">
+           <input type="button" value="ajax" data-ajax="Appel en cour">
         </section>
-        <section class="hidden" data-page="contact">
-            
+        <section class="base-section hidden" data-page="contact">
+                <input type="button" value="home" data-target="home">
         </section>
     </main>
     <script type="text/javascript" src="./script/main.js"></script>
